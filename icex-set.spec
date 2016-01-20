@@ -1,6 +1,6 @@
 Name:		icex-set
 Version:	0.0.1
-Release:	alt1
+Release:	alt2
 Summary:	Graphical icewm settings
 
 License:	GPL
