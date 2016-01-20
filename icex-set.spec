@@ -11,8 +11,7 @@ Packager:	Oleg Ivanov <Leo-sp150@yandex.ru>
 Source0:	%name-%version.tar.gz
 Source2:	%name.desktop
 Source3:	%name.png
-Source4:	wallpaper.tar.gz
-
+Source4:	wallpaper.tar.bz2
 
 BuildRequires: gcc-c++ libqt4-devel desktop-file-utils
 Requires: qt4-styles-qtcurve
