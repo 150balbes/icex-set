@@ -1,0 +1,3 @@
+copy: *.desktop
+copy: *.png
+tar.gz: icex-set

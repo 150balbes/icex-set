@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Icex-set
+Name[ru]=Icex-set
+GenericName=Icex-set
+GenericName[ru]=Настройка Icewm
+Comment=Settings wallpaper Icewm
+Comment[ru]=Настройка обоев Icewm
+Exec=icex-set %U
+Type=Application
+Icon=icex-set
+Categories=Application;System;Utility;Core;
