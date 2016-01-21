@@ -31,7 +31,7 @@ void MainWindow::on_pushButton_Exit_clicked()
 
 void MainWindow::on_pushButton_DesktopImage_clicked()
 {
-    QString str = QFileDialog::getOpenFileName(0, "Open Dialog", "/usr/share/icewm/wallpaper", "*.jpg *.jpeg *.png");
+    QString str = QFileDialog::getOpenFileName(0, "Open Dialog", "/usr/share/wallpapers", "*.jpg *.jpeg *.png");
     ui->DesktopImage->setText(str);
 }
 
