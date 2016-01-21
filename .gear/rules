@@ -1,4 +1,3 @@
 copy: *.desktop
 copy: *.png
 tar.gz: icex-set
-tar.bz2: wallpaper name=wallpaper
