@@ -1,6 +1,6 @@
 Name:		icex-set
 Version:	0.0.1
-Release:	alt3
+Release:	alt4
 Summary:	Graphical icewm settings
 
 License:	GPL
@@ -38,6 +38,9 @@ install -pD -m644 %SOURCE3 %buildroot%_liconsdir/%name.png
 %_liconsdir/*
 
 %changelog
+* Tue Jan 23 2016 Oleg Ivanov <Leo-sp150@yandex.ru> 0.0.1-alt4
+- add preview image
+
 * Tue Jan 19 2016 Oleg Ivanov <Leo-sp150@yandex.ru> 0.0.1-alt3
 - edit
 

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>522</width>
-    <height>292</height>
+    <width>440</width>
+    <height>470</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QPushButton" name="pushButton_Exit">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>250</y>
+      <x>320</x>
+      <y>430</y>
       <width>91</width>
       <height>31</height>
      </rect>
@@ -32,7 +32,7 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>501</width>
+      <width>421</width>
       <height>61</height>
      </rect>
     </property>
@@ -44,7 +44,7 @@
       <rect>
        <x>10</x>
        <y>30</y>
-       <width>371</width>
+       <width>291</width>
        <height>22</height>
       </rect>
      </property>
@@ -52,7 +52,7 @@
     <widget class="QPushButton" name="pushButton_DesktopImage">
      <property name="geometry">
       <rect>
-       <x>390</x>
+       <x>310</x>
        <y>30</y>
        <width>101</width>
        <height>22</height>
@@ -67,7 +67,7 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>250</y>
+      <y>430</y>
       <width>191</width>
       <height>31</height>
      </rect>
@@ -100,6 +100,19 @@
     </property>
     <property name="text">
      <string>Файл фона рабочего стола масштабируется на весь экран</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_prev">
+    <property name="geometry">
+     <rect>
+      <x>39</x>
+      <y>149</y>
+      <width>361</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>

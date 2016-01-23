@@ -3,6 +3,7 @@
 #include <QFileDialog>
 #include <QTextStream>
 #include <QFile>
+#include <QPixmap>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -33,6 +34,10 @@ void MainWindow::on_pushButton_DesktopImage_clicked()
 {
     QString str = QFileDialog::getOpenFileName(0, "Open Dialog", "/usr/share/wallpapers", "*.jpg *.jpeg *.png");
     ui->DesktopImage->setText(str);
+
+    QPixmap myPixmap(str);
+    ui->label_prev->setScaledContents(1);
+    ui->label_prev->setPixmap(myPixmap);
 }
 
 void MainWindow::on_pushButton_SaveApp_clicked()
