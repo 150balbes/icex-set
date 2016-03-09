@@ -1,3 +1,4 @@
 copy: *.desktop
 copy: *.png
+copy: *.jpg
 tar.gz: icex-set

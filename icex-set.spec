@@ -1,6 +1,6 @@
 Name:		icex-set
-Version:	0.0.1
-Release:	alt5
+Version:	0.0.2
+Release:	alt1
 Summary:	Graphical icewm settings
 
 License:	GPL
@@ -11,6 +11,7 @@ Packager:	Oleg Ivanov <Leo-sp150@yandex.ru>
 Source0:	%name-%version.tar.gz
 Source2:	%name.desktop
 Source3:	%name.png
+Source4:	1000.jpg
 
 BuildRequires: gcc-c++ libqt4-devel desktop-file-utils
 Requires: qt4-styles-qtcurve
@@ -31,13 +32,20 @@ DESTDIR=%buildroot PREFIX=/usr qmake-qt4 %name.pro
 install -pD -m755 %name %buildroot%_bindir/%name
 install -pD -m644 %SOURCE2 %buildroot%_desktopdir/%name.desktop
 install -pD -m644 %SOURCE3 %buildroot%_liconsdir/%name.png
+mkdir -p %buildroot%_datadir/wallpapers
+install -pD -m644 %SOURCE4 %buildroot%_datadir/wallpapers/1000.jpg
+
 
 %files
 %_bindir/%name
 %_desktopdir/*
 %_liconsdir/*
+%_datadir/wallpapers/*
 
 %changelog
+* Tue Mar 09 2016 Oleg Ivanov <Leo-sp150@yandex.ru> 0.0.2-alt1
+- new ver
+
 * Tue Jan 23 2016 Oleg Ivanov <Leo-sp150@yandex.ru> 0.0.1-alt5
 - edit icex-set.png
 
